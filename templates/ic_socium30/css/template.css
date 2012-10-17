@@ -1,0 +1,49 @@
+* html .clearfix,*:first-child+html .clearfix{zoom:1}html, body {  margin-top: -10px;  padding: 0px;  width:100%;  height:100%;  font-family: tahoma,arial,verdana,sans-serif,Lucida Sans;}a{	cursor: pointer !important;}#wrap_100{  width:100%;  min-width: 100%;  margin: 0px;  padding: 0px 0px 0px;  position: absolute;   z-index: 0;}#wrapbg{	width: 960px;	min-height:500px;	margin: 0px auto;	padding: 20px 0px 0px;	position: relative;	z-index: 1;}#wrap_box{	padding: 0px;	margin: 0px;	min-height:500px;}#header_box{	height:310px;	width:100%;	clear:both;	 position: relative;	z-index: 20;	margin: 0px;	padding: 0px 0px 10px;	top: 0px;	left: 0px;	right: 0px;}#header{	height: 310px;	width: 960px;	margin: 0px auto;	clear:both;}div#logo{	width:710px;	height:150px;	display: block;	float: left;	margin: 25px 10px 10px 0px;}#logo a#logo{	width:710px;	height:150px;	display: block;	cursor: pointer;	outline:0px;	text-decoration: none;}#slider{ float: right; margin-top: -50px;}#banner1{	width: 100%;	overflow: hidden;	margin: 0px 5px 5px 0px;	padding: 5px;}#banner1 .simple,#banner1 .module{	float: left;	padding: 0px;	margin:0px 2px 5px 0px;}#banner1 .modulebody{	padding: 0px;	margin: 0px;}#two_menu_box{	height:92px;	width: 710px;	float: left;	display: block;	padding: 0px 0px 0px 0px;	margin: -15px 0px 0px 5px;	position: relative;}#top_menu{	max-width: 420px;	display: block;	height:200px;	position: relative; margin-left: 540px;	clear: both;}#main_menu_box{	height:50px;	max-width: 710px;	display: block;	padding: 50px 0px 0px 0px;	margin: 0px 0px 0px -6px;	position: relative;}#main_menu{	height:50px;	margin: 0px; padding: 0px 0px 0px 0px;}#search_pos{	float: right;	overflow: hidden;	width: 708px;	margin: 0px 5px 5px 0px;	padding: 5px;	clear: both;}#pathway_box{	float: right;	width: 708px;	margin: 0px 5px 5px 0px;	padding: 0px 5px;	overflow: hidden;	min-height:20px;	line-height:18px;	display: block;	clear: both;}#user_menu{	margin: 0px 0px 5px 5px;	padding: 0px 5px;	overflow: hidden;	min-height:20px;	display: block;	clear: both;	}#pathway{	overflow: hidden;	padding:0px 10px 0px 0px;	height:20px;	line-height:18px;}#pathway a.pathwaylink{	padding:0px 0px;	line-height:18px;	text-decoration: none;}#columns{	width: 100%;}#main_column_wrap{	width: 100%;}#main_column_wrap1{	width: 100%;	float: right;	margin-left: -220px;}#main_column{	width: 100%;}#main_column1{	margin-left: 230px;}#left_column{   float: left;   padding-top: 0px;   width: 220px;}#left_column_footer{	width: 220px;	height: 20px;}#tabber_wrap{	width: 100%;}#tabber{	clear:both;	padding: 0px 5px 0px 5px;	margin-top: 0px;	margin-bottom: 0px;	position: relative;	z-index: 1;}#tabber_module{	float: left;	width: 209px;	padding: 5px;	margin-left: -220px;	margin-top: 50px;}#tabber_banner{	width: 100%;	clear: both;	padding: 5px 0px;	overflow: hidden;}#tabber_banner .simple,#tabber_banner .module{	float: left;	margin: 0px 15px 0px 5px;}.tabber_footer{	padding-bottom: 15px;	margin-bottom: 15px;}#banner2{	width: 100%;	clear: both;	padding: 5px 0px;	overflow: hidden;	margin: 10px 0px; 	position: relative;	z-index: 1;}#banner2 .simple,#banner2 .module{	float: left; 	margin-left: 15px;	padding: 0px;}#banner2 .modulebody{	padding: 0px;	margin: 0px;}/*„асть контента*/#content_box{	display: block;	width:100%;	clear:both;	margin-top: 5px;	position: relative;	z-index: 1;}#content_bg{	float: left;    width: 100%;}#content_l_box{	width: 210px;	padding: 5px;}#content_c_wrap{	padding: 0px;}#content_wrap{	clear: both;}#content_wrap div.component{	padding: 10px;	display: block;	min-height: 500px;	overflow: hidden;	-moz-border-radius: 5px; 	-webkit-border-radius: 5px; 	-khtml-border-radius: 5px; 	border-radius: 5px;}#banner3{	width: 100%;	clear: both;	padding: 15px 0px;	overflow: hidden;	margin-bottom: 15px;}#banner3 .module,#banner3 .simple{	float: left;	margin-right: 15px;	padding: 0px;	overflow: hidden;}#banner3 .modulebody{	padding: 0px;	margin: 0px;}#bottom{	width: 100%;	clear: both;	min-height: 200px;	padding-top: 10px;	overflow: hidden;}/*‘утер*/#footer_box{	margin: 0px 0px;	display: block;	min-height: 50px;	clear:both;	padding-top: 40px;	position: relative;	overflow: hidden;}#footer{	width: 100%;}#foo_menu{	height: 30px;  width: 100%;}#footer_copyright{	padding: 5px 0px;	height:50px;	overflow: hidden;	clear: both;	display: block;	margin: 0;}#footer #counter{	float: left;	margin: 0px 10px 10px 0px;	display: inline-block;	width: auto;	min-height: 50px;}#foo_links{	float: right;	overflow: hidden;	width: 172px;	text-align: right;	font-size: 10px;}#Dezerit_Web_Group{	margin: 0px 0px 0px 0px;	display: block;	overflow: hidden;	width: 100%;}#InstantCMS{	margin: 0px 0px 0px 0px;	display: block;	width: 100%;}#Dezerit_Web_Group a,#InstantCMS a{	outline: none;	border: 0px;	text-decoration: none !important;}#footer_copyright #copyright{	line-height: 15px;	font-size: 12px;	float: left;	margin:0px 10px 0px 0px;}/*Ёлементы шаблона*/#ie6warning{	display: none;}ul {	padding: 0px;}div.line{width:100%; height: auto; clear: both;}.clear{width: 100%; height:1px; clear: both; overflow: hidden;}.round1, .round2, .round3, .round5 {    display: block;    height: 1px;	overflow: hidden;     font-size:1px;}.round5 { margin: 0 5px; }.round3 { margin: 0 3px; }.round2 { margin: 0 2px; }.round1 { margin: 0 1px; }.round4 {	-moz-border-radius: 4px; 	-webkit-border-radius: 4px; 	-khtml-border-radius: 4px; 	border-radius: 4px;}.round_down {	-moz-border-radius: 0px 0px 4px 4px; 	-webkit-border-radius: 0px 0px 4px 4px; 	-khtml-border-radius: 0px 0px 4px 4px; 	border-radius:  0px 0px 4px 4px;}.shadow2{	-webkit-box-shadow: 0px 2px 2px #222;    -moz-box-shadow: 0px 2px 2px #222;    box-shadow: 0px 2px 2px #222;}.shadow5{	-webkit-box-shadow: 0px 0px 5px #222;    -moz-box-shadow: 0px 0px 5px #222;    box-shadow: 0px 0px 5px #222;}
+
+/* branding banners */
+		#advBgBannerLeft, #advBgBannerRight {
+			position: fixed;
+			display: none;
+			height: 100%;
+			}
+			#advBgBannerLeft div, #advBgBannerRight div , #advBgBannerLeft div a, #advBgBannerRight div a {
+				width: 100%;
+				height: 100%;
+				}
+				#advBgBannerLeft div a, #advBgBannerRight div a {
+					display: block;
+					text-indent: -9999em;
+				}
+/* //branding banners */
+
+#head0 {
+    background: none repeat scroll 0 0 #EEEFF3;
+    height: 45px;
+    position: relative;
+    width: 710px;
+    z-index: 1;
+}
+
+#head0 ul {
+    list-style: none outside none;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+#head0 {
+    float: left;
+    padding: 0px 0 0 0px;
+}
+#head0 li {
+    float: left;
+    padding: 0 8px 0 0;
+}
+#head0 li a {
+    color: #333333;
+    float: left;
+    font: 1em Tahoma,Verdana,Arial,serif;
+    text-decoration: none;
+}
+#head0 li a:hover {
+    text-decoration: underline;
+}

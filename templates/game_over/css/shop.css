@@ -1,0 +1,377 @@
+/* ========================================================================== */
+/* ==============================  ¿“¿ÀŒ√ =================================== */
+/* ========================================================================== */
+
+#shop_toollink_div{
+    border-radius:8px;
+    -moz-border-radius:8px;
+    background-color:#FBDB4F;
+    float:right;
+    padding:8px 8px;
+	clear:both;
+	overflow:hidden;
+}
+
+#shop_toollink_div a{
+    color:#375E93;
+}
+
+#shop_cartlink{
+	float:left;
+	background:url(../images/icons/cart.png) no-repeat 2px 2px;
+    font-weight:bold;
+	padding-left:25px;
+	padding-right:5px;
+}
+
+#shop_searchlink{
+	float:left;
+	background:url(../images/icons/search.png) no-repeat 2px 2px;
+	padding-left:25px;
+	padding-right:5px;
+}
+#shop_addlink{
+	float:left;
+	background:url(../images/icons/add.png) no-repeat 2px 2px;	
+	padding-left:22px;
+	padding-right:5px;
+}
+#cart_buttons{
+	margin-top:20px;
+	text-align:center;
+	overflow:hidden;
+}
+#cart_buttons1{
+	margin:2px;
+	float:right;
+}
+#cart_buttons2{
+	margin:2px;
+	float:left;
+}
+
+#cart_total{
+	text-align:right;
+	font-size:16px;
+	margin-top:5px;
+	padding-top:5px;
+	border-top:solid 1px silver;
+}
+#cart_total span{
+	font-weight:bold;
+}
+
+#catalog_list_itempic{
+	padding:10px;
+}
+
+#shop_small_price{
+	width:110px;
+	height:26px;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:26px;
+	text-align:center;
+	margin-top:5px;
+	font-size:14px;
+	font-weight:bold;
+	color:#047700;
+}
+
+#shop_price{
+	float:left;
+	font-size:14px;
+	margin-left:15px;
+	margin-top:10px;
+	height:43px;
+	line-height:43px;
+	width:190px;
+	background:url(/components/catalog/images/shop/price.jpg) no-repeat;
+}
+#shop_price span{
+	margin-left:20px;
+	font-weight:bold;
+}
+#shop_ac_item_link img{
+	margin-left:2px;
+	margin-top:12px;
+}
+#shop_ac_itemdiv{
+	margin-left:5px;
+	margin-top:10px;
+}
+
+.catalog_sortform{
+	text-align:right;
+	clear:both;
+	overflow:hidden;
+}
+.catalog_sortform table{
+	float:right;
+    margin:10px 0px;
+}
+
+.catalog_list_item{
+    border-radius:8px;
+    -moz-border-radius:8px;
+    border:1px solid #FBDB4F;
+    margin-bottom:4px;
+    padding:8px;
+}
+
+#catalog_item_table{
+	width:100%;
+}
+#shop_list_buttons{
+	float:right;
+	clear:both;
+    margin-top:15px;
+}
+
+div.uc_subcats{
+	padding:10px;
+	border:solid 1px silver;
+	background-color:#FFF;
+	margin-bottom:15px;
+}
+
+ul.uc_cat_list{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+
+ul.uc_cat_list li.uc_cat_item{
+    font-size:18px;
+    padding-left:23px;
+    background: url(../images/icons/folder.png) no-repeat left center;
+    height:18px;
+    line-height:18px;
+    margin:0px;
+    margin-bottom:10px;
+}
+.hint{
+    color:gray;
+}
+#shop_moder_form{
+    padding:15px;
+}
+#shop_moder_form p.notice{
+    font-weight:bold;
+}
+
+/*-------------------------- UNIVERSAL CATALOG -------------------------------*/
+.uc_new{
+	color:#FF0000;
+	font-style:italic;
+	padding:5px;
+	vertical-align: super;	
+}
+.uc_list_item{
+	padding: 2px;
+	margin: 2px;
+}
+.uc_itemfieldlist{
+	margin: 0px;
+    margin-top:10px;
+	list-style: none;
+}
+.uc_itemfield{
+	font-size:14px;
+}
+.uc_itemlink{
+	font-size:20px;
+}
+.uc_list_itempic{
+	background-color: #FFFFFF;
+	border: solid 1px black;
+	padding: 2px;
+}
+.uc_list_itemdesc{
+	padding-left: 0px;
+    overflow:hidden;
+}
+
+.uc_thumb_item{
+	padding: 2px;
+	margin: 2px;
+	background-color: #FFFFFF;
+	border:solid 1px silver;
+	display:block;
+	width:140px;
+	height:170px;
+	float:left;
+	text-align:center;
+}
+.uc_thumb_itemlink{
+	font-size:12px;
+}
+.uc_detailfield{
+	margin:0px;
+	margin-bottom: 8px;
+    padding:0px;
+}
+.uc_detaillist{
+	margin:0px;
+    padding-left:15px;
+	list-style: none;
+}
+.uc_detaillink{
+	font-size:16px;
+	margin-top:15px;
+	text-decoration:underline;
+}
+.uc_detaillink:hover{
+	color:#FF6600;
+	font-size:16px;
+	margin-top:15px;
+	text-decoration:underline;
+}
+.uc_detailtags{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.uc_detailimg div{
+    border-radius:8px;
+    -moz-border-radius:8px;
+    border:1px solid #C3D6DF;
+    padding:4px;
+}
+.uc_detailimg{	
+}
+.uc_detailrating{
+	margin:0px;
+	margin-bottom:8px;
+	margin-top:8px;
+	border:solid 1px gray;
+	padding:3px;
+}
+.uc_findsame{
+	color: gray;
+}
+.uc_tagline{
+	border-top:dashed 1px #C3D6DF;
+	margin-top: 6px;
+	padding-top:2px;
+	padding-bottom:8px;
+	font-size: 10px;
+	width: 100%;
+}
+.uc_sortform{
+	padding: 5px;
+	border: solid 1px gray;
+	background-color:#FFFFFF;
+	margin:1px;
+}
+.uc_queryform{
+	padding: 5px;
+	border-bottom: solid 1px gray;
+	margin-bottom:10px;
+}
+.uc_rating{
+	margin-bottom: 8px;
+    float:right;
+}
+.uc_toolbar{
+	margin: 0px;
+	margin-bottom:20px;
+}
+.uc_item_edit{
+    margin-top:6px;
+    float:right;
+}
+.uc_item_edit_link{
+    color:#375E93;
+    padding:2px;
+    padding-left:20px;
+    background:url(../images/icons/edit.png) no-repeat left center;
+}
+.uc_cat_search{
+    margin:15px 0px;
+}
+.uc_cat_search table{
+    margin-bottom:3px;
+}
+
+.uc_cat_search table input{
+    border:solid 1px #4DA4CF;
+    padding:2px;
+}
+
+.uc_search_in_cat{
+    margin-bottom:10px;
+}
+
+.uc_search_in_cat a{
+    padding:1px;
+    padding-left:20px;
+    background:url(../images/icons/folder.png) no-repeat;
+}
+
+/*----------------------MODULE "LATEST FROM CATALOG"--------------------------*/
+.uc_latest_item{
+	padding: 2px;
+	margin: 2px;
+	background-color: #FFFFFF;
+	border:solid 1px silver;
+	display:block;
+	width:140px;
+	height:170px;
+	float:left;
+	text-align:center;
+}
+.uc_latest_link{
+	font-size:12px;
+}
+.uc_latest_title{
+	list-style-position:inside;
+	list-style:square;
+}
+.uc_alpha_list{
+    border-radius:8px;
+    -moz-border-radius:8px;
+    background-color:#FBDB4F;
+    padding:5px 10px;
+    margin-bottom: 5px;
+}
+.uc_alpha_link{
+	font-size:18px;
+	padding-right:10px;
+}
+
+/*-------------------------------- SHOP CART ---------------------------------*/
+.cart_item{
+	font-size:10px;
+	font-weight:bold
+}
+.cart_detaillink{
+	clear:both; 
+	border-bottom:solid 1px gray; 
+	margin-bottom:10px; 
+	padding-bottom:5px
+}
+.cart_total{
+	clear:both; 
+	border-top:solid 1px gray; 
+	margin-top:10px; 
+	padding-top:5px
+}
+.cart_price{
+	margin-top:2px;
+	text-align:right;
+}
+.cartrow1{
+	background-color:#EBEBEB;
+}
+.cartrow2{
+	background-color:#FFFFFF;
+}
+
+/*------------------------ COMPONENT "PRICE LIST" ----------------------------*/
+.pricerow1{
+	background-color:#EBEBEB;
+}
+.pricerow2{
+	background-color:#FFFFFF;	
+}

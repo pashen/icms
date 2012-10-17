@@ -1,0 +1,199 @@
+/* ========================================================================== */
+/* ===========================  ŒÃÃ≈Õ“¿–»» ================================== */
+/* ========================================================================== */
+
+.cmm_heading {
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	color: #7192A6;
+	margin-bottom: 4px;
+	padding-top: 8px;
+}
+.cmm_icons{
+	margin-bottom: 4px;
+}
+.cmm_icons a{
+	color:#666666;
+	text-decoration:underline;
+}
+.cmm_anchor{
+	float:left;
+	margin-left:10px;
+	color:#333333;
+}
+.cmm_author {
+	display: block;
+	float: left;
+
+	font-weight: bold;
+}
+.cmm_title {
+	padding: 6px;
+}
+.cmm_votes{
+	float: right;
+	padding: 2px;
+    margin-right:15px;
+    color:silver;
+    font-weight:bold;
+}
+.cmm_good{
+    color:green;
+}
+.cmm_bad{
+    color:red;
+}
+.cmm_time {
+	color: #999;
+	display: block;
+	float: right;
+	padding: 2px;
+	padding-left:20px;
+	background:url(/components/comments/images/time.gif) no-repeat #FFF;
+}
+.cmm_date {
+	color: #999;
+	background-color: #999999;
+	display: block;
+	float: right;
+	margin-right:6px;
+	padding: 1px;
+	padding-left:20px;
+	background:url(../images/icons/calendar.png) no-repeat left center;
+}
+.cmm_pagebar {
+	background-color:#EBEBEB;
+	margin-bottom:4px;
+}
+.cmm_entry {
+	width: 100%;
+	margin:0;
+	margin-bottom:5px;
+	padding:2px;
+}
+.cmm_sublinks{
+    display:block;
+    margin-top:10px;
+}
+.cmm_sublinks a:hover{
+    color:#375E93;
+}
+.cmm_sublinks a{
+    color:#5F98BF;
+    margin-right:6px;
+}
+.cmm_avatar {
+	padding: 5px;
+	background:#EBEBEB;
+    border-radius:8px;
+    -moz-border-radius:8px;
+}
+.cmm_content_av {
+	padding: 10px;
+	padding-left: 25px;
+	padding-top: 7px;
+	background:url(/components/comments/images/pointer.jpg) no-repeat;
+
+}
+.cmm_content {
+	padding-left: 6px;
+}
+
+.cmm_content_av .quote {
+color:#000000;
+font-style:italic;
+background-color: #F3F9F2;
+border:thin dashed #999999;
+}
+
+.cmm_addentry a{
+	text-decoration:underline;
+}
+.cmm_addentry {
+	padding:20px;
+	border:solid 1px gray;
+	background-image:url(/templates/official/images/cmform_bg.jpg);
+	background-repeat:repeat-x;
+	background-color:#E4E4E4;
+}
+.cmm_smilebox{
+	padding:4px;
+	border:solid 1px gray;
+	background-color:#EBEBEB;
+}
+.cmm_codebar{
+	width:100%;
+	border:solid 1px gray;
+	background-color:#FFFFFF;
+}
+.cmm_pageselect{
+	border: solid 1px gray;
+	background-color:#F3F3F3;
+}
+.cmm_submit{
+	font-size:12px;
+}
+.cmm_all_title{
+    margin-bottom:5px;
+    color:#5F98BF;
+    font-size:100%;
+    font-weight:normal;
+}
+
+#addcomment {
+	border: solid 1px gray;
+	background-color:#E5E5E5;
+	padding:10px;
+}
+#addcommentlink{
+	margin-top:15px;
+}
+.cm_guest_name{
+    margin:10px 0px;
+    color:#375E93;
+    font-weight:bold;
+}
+.cm_codebar{
+    margin-top:10px;
+    width:100%;
+}
+.cm_submit{
+    font-size:18px;
+}
+
+div.cm_smiles{    
+}
+div.cm_smiles a{
+	text-decoration:none;
+}
+
+div.cm_smiles div.usr_msg_smilebox{
+	background:#ECECEC;
+    width:100%;
+	border-left:solid 1px #666;
+	border-right:solid 1px #666;
+}
+
+/*----------------------- MODULE "LATEST COMMENTS" ---------------------------*/
+.mod_com_userlink{
+	color:#666;
+}
+.mod_com_line{
+    font-size:14px;
+}
+.mod_com_targetlink{
+    color:#333;
+}
+.mod_com_details{
+    font-size:10px;
+    margin-bottom:6px;
+}
+.mod_com_details a{    
+    text-decoration:none;
+}
+.mod_com_all{
+    padding:1px;
+    padding-left:20px;
+    background:url(../images/icons/comments.png) no-repeat;
+    color:#333;
+}

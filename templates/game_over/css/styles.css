@@ -1,0 +1,549 @@
+html, body {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+}
+
+html { height:100%; }
+
+body {
+    background:url(../images/bg.jpg) no-repeat center top #1F3147;
+    height: 100%;
+	word-wrap: break-word;
+}
+
+a { color:#09c; }
+a:hover { color:#375E93; }
+
+#wrapper {
+  position:relative;
+  height:auto !important;
+  min-height: 100%;
+  display:block;
+}
+
+* html #wrapper {
+  height: 100%;
+}
+
+#wrapper .pad{ height:52px; clear:both; }
+
+.text-input{ border:1px solid #4DA4CF; padding:2px; }
+.text-input:focus{ border:1px solid #FFD100; padding:2px; }
+
+.float_bar a{ color:#375E93; }
+.float_bar a:hover{ color:#09C; text-decoration:none; }
+.float_bar{
+    border-radius:8px;
+    -moz-border-radius:8px;
+    background-color: #FBDB4F;
+    float:right;
+    margin-top:0px;
+    padding:5px 8px;
+}
+
+.bar{
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background-color: #E0EAEF;
+    padding:5px 10px;
+}
+
+.ajaxlink:hover{ color:#0099CC; border-bottom:dashed 1px #0099CC; }
+.ajaxlink{
+    text-decoration:none;
+    border-bottom:dashed 1px #375E93;
+    color:#375E93;
+}
+
+.hinttext{
+    color:#5F98BF;
+}
+
+/***************************** Шапка страницы *********************************/
+
+#header{
+    height:60px;
+    line-height:60px;
+    background:url(../images/headbg.png) repeat-x left bottom;
+}
+
+#sitename a{
+    display:block;
+    width:199px;
+    height:60px;
+    background:url(../images/logo.png) no-repeat left center;
+}
+
+#page{
+    padding-bottom:20px;
+
+}
+
+/**************************** Сообщения сессии ********************************/
+
+.sess_messages {
+    padding:10px;
+    background:#E0EAEF;
+    margin-bottom:15px;
+    display:block;
+    clear:both;
+    border-radius:8px;
+    -moz-border-radius:8px;
+}
+
+.sess_messages div{
+    padding-left:20px;
+    line-height:16px;
+    margin-bottom:2px;
+}
+
+.sess_messages .message_info {
+    background:url(../images/icons/info.png) no-repeat left center;
+}
+.sess_messages .message_success {
+    background:url(../images/icons/yes.png) no-repeat left center;
+    color: green;
+}
+.sess_messages .message_error {
+    background:url(../images/icons/no.png) no-repeat left center;
+    color: red;
+}
+
+/*--------------------------- MODULE "POLLS" ---------------------------------*/
+.mod_poll_title {
+	margin-bottom: 5px;
+}
+.mod_poll_submit {
+	margin-top: 10px;
+}
+.mod_poll_gauge {
+	background-color:#09C;
+	display: table;
+	height: 8px;
+	margin-bottom: 8px;
+}
+.search_field {
+	width: 100%;
+	border: 1px solid #666666;
+}
+.search_row1 {
+	background-color:#FFFFFF;
+}
+.search_row2 {
+	background-color:#EBEBEB;
+}
+
+/*----------------------- MODULE "LATEST ARTICLES" ---------------------------*/
+.mod_latest_entry{
+	margin-bottom:10px;
+	clear:both;
+}
+.mod_latest_title{
+	font-size:14px;
+}
+.mod_latest_blog_title{
+	font-size:16px;
+}
+.mod_latest_date{
+	margin-bottom:10px;
+    padding:2px 0px;
+	font-size:11px;
+	color:gray;
+}
+.mod_latest_date a{
+	color:#5F98BF;
+}
+.mod_latest_desc{
+	margin-bottom:5px;
+}
+.mod_latest_comments{
+    padding:1px;
+	background:url(../images/icons/comment-small.png) no-repeat left center;
+    padding-left:20px;
+}
+.mod_latest_hits{
+    padding:1px;
+	background:url(../images/icons/eye.png) no-repeat left center;
+    padding-left:20px;
+}
+.mod_latest_rss{
+    clear:both;
+	padding-left:20px;
+	background:url(../images/icons/rss.png) no-repeat left center;
+	height:16px;
+	line-height:16px;
+	text-decoration:underline;
+	color:#333;    
+}
+
+.mod_latest_rss a{
+	text-decoration: underline; 
+	color: #FBDB4F;
+}
+
+.mod_latest_image{
+    float:left;margin-right:10px;margin-bottom:15px;
+    background:#FFF;
+    padding:1px;
+    border:solid 1px #6E93C9;
+}
+
+.mod_latest_pagebar .pagebar{
+    margin-top:25px !important;
+    margin-bottom:10px !important;
+}
+
+.mod_latest_pagebar .pagebar .pagebar_title{
+    margin-left:0px;
+}
+
+/*------------------------------ PAGES BAR -----------------------------------*/
+.pagebar{
+	margin-top:10px; 
+	margin-bottom: 15px; 
+	font-size:12px;
+	clear:both;
+}
+.pagebar_title{
+	margin:5px;
+    color:#375E93;
+}
+.pagebar_page{
+	margin:3px; 
+	padding:6px;
+}
+.pagebar_current{
+	margin:3px; 
+	padding:6px; 	
+	background-color: #375E93;
+    color:#FFF;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}
+
+/*----------------------------- SITE SEARCH ----------------------------------*/
+.search_match{
+	background-color:#66CCFF;
+	color:#FFF;
+    border-radius:2px;
+    -moz-border-radius:2px;
+	padding:0 2px;
+}
+.search_date{
+	float:right;
+	height:14px;
+	font-size:10px;
+	color: #5F98BF;
+}
+#from_search{
+	display:none;
+	margin:10px 0 0 0;
+	border-top:1px #4DA4CF solid;
+	position:relative;
+}
+#from_search label{
+	color: #666;
+}
+#from_search label.selected{
+	color: #000;
+}
+.price_search {
+	width: 60%;
+	border: 1px solid #666666;
+}
+
+.search_input {
+	width: 300px;
+	border:solid 1px gray;
+}
+.search_block {
+	margin:0 0 7px 0;
+	clear:both;
+	padding:0 4px 4px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+}
+.search_result_title {
+	font-size:16px;
+	font-weight:bold;
+}
+.search_result_title span {
+	width:25px;
+	display:block;
+	float:left;
+}
+.search_result_desc {
+	margin:4px 0 0 20px;
+}
+.search_result_desc p {
+	color:#666;
+}
+.search_result_desc a {
+	color:#666;
+}
+
+/*---------------------------- ARTICLE CONTENTS ------------------------------*/
+.con_pt {
+	display:block;
+	padding: 8px;
+	margin: 5px;
+	border:solid 1px gray;
+	width:260;
+	float:right;
+	background-color:#FFFFFF;
+}
+
+.con_pt_heading {
+	display: block;
+	margin-bottom:6px;
+}
+
+/*-------------------------- MODULE "CALENDAR" -------------------------------*/
+.calendar{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border: solid 1px black;
+	width:100%;
+	text-align:center;
+}
+.calendar_top{
+	height: 30px;
+	background-color:#006699;
+	color:#FFFFFF;
+}
+#calendar_nav{
+	height: 30px;
+	background-color:#006699;
+	color:#FFFFFF;
+}
+#calendar_nav a{
+	color:#FFFFFF;
+	text-align:center;
+}
+.calendar_dayname{
+	font-size: 10px;
+	height: 30px;
+	background-color:#EBEBEB;
+}
+.calendar_day{
+	font-size: 10px;
+	padding:4px;
+}
+.calendar_today{
+	font-size: 10px;
+	padding:4px;
+	background-color:#EBEBEB;
+	border:solid 1px gray;
+}
+.calendar_daylink{
+	text-decoration: underline;
+}
+.calendar_toplink{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+.calendar_toplink:hover{
+	text-decoration: none;
+	color:yellow;
+}
+
+/*------------------------- MODULE "SITE TAGS" -------------------------------*/
+a.tag:hover{
+	background-color: #375E93;
+	color:#fff;
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------*/
+.ajax_autogrowarea{
+	display:block;
+	border:solid 1px gray;
+	width:100%;
+	height:108px;
+	min-height:180px;	
+	max-height:702px;
+	line-height:18px;
+    margin:0px;
+}
+.bb_tag_code{
+    border:solid 1px silver;
+    padding:8px;
+    margin-top:5px;
+    margin-bottom:5px;
+    max-width:700px;
+    overflow:auto;
+}
+.bb_tag_code ol{
+    padding: 6px 0;
+    padding-left:5px;
+}
+.bb_tag_hide{
+	padding:8px;
+	background-color:#FFFFCC;
+}
+.bb_tag_hide a{
+	color:#333333;
+	text-decoration:underline;
+}
+.bb_tag_spoiler .spoiler_title{ margin-bottom:3px; }
+.bb_tag_spoiler .spoiler_body{
+    margin-bottom:10px;
+    padding:10px;
+    background:#ECECEC;
+    border-radius:8px;
+    -moz-border-radius:8px;
+}
+.bb_img {
+	width:550px;
+	overflow:hidden;
+}
+/*----------------------------- COMPONENT "FAQ" ------------------------------*/
+.faq_subcats, .faq_cats{
+	padding:10px;
+    padding-bottom:5px;
+	background-color:#F7E076;
+	margin-bottom:10px;
+    border-radius:8px;
+    -moz-border-radius:8px;
+color:#000;
+}
+.faq_cat_link{
+    font-size:18px;
+}
+.faq_cat_link a{
+color:#0A6789;
+}
+.faq_cat_desc{
+    margin-bottom:5px;
+}
+
+.faq_questtext{
+	font-size:18px;
+    margin-bottom:10px;
+    color:#375E93;
+}
+.faq_quest_link {
+    margin-bottom:5px;
+}
+.faq_quest_link a{
+    font-size:14px;
+    text-decoration:none;
+}
+.faq_quest_link a:hover{
+    color:#FBDB4F;
+}
+.faq_answertext{
+    font-size:16px;
+    margin-bottom:10px;
+}
+
+.faq_answertext p{
+    margin-bottom:10px;
+}
+
+.faq_questdate{
+	padding:2px;
+	font-size:11px;
+	text-align:center;
+	background-color:#FBDB4F;    
+	width:100px;
+	float:right;
+    color:#000;
+}
+.faq_questuser a{
+    color:#375E93;
+}
+.faq_questuser{
+	padding-left:20px;
+	font-size:11px;
+	text-align:center;
+	margin-top:2px;
+    margin-right:4px;
+	float:right;
+	background:url(../images/icons/user.png) no-repeat;
+}
+.faq_questcat{
+	padding:2px;
+	font-size:11px;
+	text-align:center;
+	margin-left:4px;
+	float:right;
+}
+.faq_questcat a{
+	color:#FBDB4F;;
+}
+.faq_quest{
+	margin-bottom:4px;
+	border-radius:8px 8px 8px 8px;
+	-moz-border-radius:8px 8px 8px 8px;
+    border:1px solid #FBDB4F;
+    padding:8px;
+}
+.faq_send_quest{
+    border-radius:8px 8px 8px 8px;
+    -moz-border-radius:8px 8px 8px 8px;
+    background-color:#FBDB4F;
+    float:right;
+    padding:5px 8px;
+}
+.faq_send_quest a{
+    padding:1px;
+    padding-left:20px;
+    background:url(../images/icons/add.png) no-repeat;
+	text-decoration:underline;
+	color:#375E93;
+}
+
+#faq_message{
+    width:100%;
+    height:200px;
+    margin-bottom:10px;
+    border:solid 1px #203047;
+}
+.faq_add_cat{
+    margin-bottom:10px;
+    color:#375E93;
+}
+
+/*------------------------------ TAG BAR -------------------------------------*/
+.taglinebar{
+	margin:10px 0px;
+}
+.taglinebar .label{
+	padding-right:18px;
+	background:url(../images/icons/tag.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	font-weight:bold;
+	margin-right:4px;
+}
+.tag_searchcat{
+	color:#666666;
+	text-decoration:underline;
+	font-size:16px;
+}
+.tag_searchitem{
+	text-decoration:underline;
+	font-size:16px;
+}
+.tagsearch_bar{
+	font-size:10px;
+	text-align:right;
+	float:right;	
+}
+.tagsearch_item{
+	float:left;
+	padding:5px;
+}
+
+/*------------------------- MODULE "LATEST FAQ QUESTS" -----------------------*/
+.mod_faq_date{
+	font-style:italic;
+	color:#999999;
+}
+
+span.user_karma_point{
+	font-size:16px;
+}

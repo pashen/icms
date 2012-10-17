@@ -1,0 +1,39 @@
+<?php 
+if(!defined('VALID_CMS')) { die('ACCESS DENIED'); } 
+$_CFG = array();
+$_CFG['sitename'] 	= 'Pashen project';
+$_CFG['hometitle'] 	= '';
+$_CFG['homecom'] 	= '';
+$_CFG['siteoff'] 	= 0;
+$_CFG['debug'] 	= 0;
+$_CFG['offtext'] 	= 'Производится обновление сайта';
+$_CFG['keywords'] 	= 'InstantCMS, система управления сайтом, бесплатная CMS, движок сайта, CMS, движок социальной сети';
+$_CFG['metadesc'] 	= 'InstantCMS - бесплатная система управления сайтом с социальными функциями';
+$_CFG['seourl'] 	= '';
+$_CFG['lang'] 	= 'ru';
+$_CFG['sitemail'] 	= '';
+$_CFG['wmark'] 	= 'watermark.png';
+$_CFG['stats'] 	= 0;
+$_CFG['template'] 	= 'ic_socium30';
+$_CFG['splash'] 	= 0;
+$_CFG['slight'] 	= 1;
+$_CFG['back_btn'] 	= 0;
+$_CFG['db_host'] 	= 'localhost';
+$_CFG['db_base'] 	= 'icms';
+$_CFG['db_user'] 	= 'pashen';
+$_CFG['db_pass'] 	= 'mane';
+$_CFG['db_prefix'] 	= 'icms';
+$_CFG['show_pw'] 	= 1;
+$_CFG['short_pw'] 	= 0;
+$_CFG['index_pw'] 	= 0;
+$_CFG['fastcfg'] 	= 1;
+$_CFG['mailer'] 	= 'mail';
+$_CFG['sendmail'] 	= '/usr/sbin/sendmail';
+$_CFG['smtpauth'] 	= 0;
+$_CFG['smtpuser'] 	= '';
+$_CFG['smtppass'] 	= '';
+$_CFG['smtphost'] 	= 'localhost';
+$_CFG['timezone'] 	= 'Europe/Moscow';
+$_CFG['timediff'] 	= '';
+$_CFG['allow_ip'] 	= '';
+?>

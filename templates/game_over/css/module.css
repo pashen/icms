@@ -1,0 +1,229 @@
+/*************************** Верхний широкий модуль ***************************/
+#topwide{
+    display:block;
+    overflow:hidden;
+    margin-bottom:20px;
+    margin-top:10px;
+    width:940px !important;
+}
+
+#topwide .moduletitle{
+    font-size:18px;
+    margin-bottom:5px;
+}
+
+#topmod{
+    padding:0px;
+    margin:0px;
+    width:940px !important;
+}
+
+/*************************** Верхний главный модуль ***************************/
+#main .module{
+    margin-bottom:10px;
+    //margin-bottom:20px;
+    margin-top:10px;
+    //margin-top:20px;
+    padding:0;
+    //padding-top:0px;
+}
+
+#main .moduletitle{
+    font-size:18px;
+    height:28px;
+    line-height:25px;
+    background:url(../images/b_bg.png) repeat-x left;
+    margin-top:-11px;    
+    margin-bottom:10px;
+    padding-left:14px;
+    color:#000;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    display:block;
+}
+
+#main div:last{
+    border-bottom:none !important;
+}
+
+/********************************* Сайдбар ************************************/
+#sidebar .module{
+    margin-top:0px;
+    //margin-top:10px;
+    padding:0px;
+    display:block;
+    overflow:hidden;
+}
+
+#sidebar .moduletitle{
+    padding-left:10px;
+    font-size:16px;
+    height:28px;
+    line-height:25px;
+    margin-bottom:10px;
+    color:#000;
+    background:url(../images/b_bg.png) repeat-x left;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+#sidebar .modulebody p{
+    margin-bottom:10px;
+}
+
+/********************************** Футер *************************************/
+
+#footer{
+    height:50px;
+    line-height:50px;
+    background: #19283B;
+    color:#FFF;
+    text-shadow:0 1px 0 #000;
+    margin-top:-52px;
+    clear:both;
+}
+
+#footer #copyright{
+    font-size:16px;
+}
+
+#footer .foot_right a{
+    height:40px;
+    display:block;
+    padding-top:10px;
+}
+
+#footer .foot_right{
+    text-align:right;
+}
+
+/************************* Кнопки настройки модулей ***************************/
+
+span.fast_cfg_link { padding:4px; }
+span.fast_cfg_link img{ border:none; }
+
+.ui-tabs-panel {
+    border-top: 1px solid #FBDB4F;
+    padding: 1em 8px;
+ background: url("../images/bg_bg.png") repeat scroll 0 0 transparent;
+}
+
+/*------------------------- COMPONENT "CONTENT" ------------------------------*/
+.component {
+    padding:0px;
+    padding-left:10px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+.con_heading {
+	font-size: 28px;
+    font-weight:normal;
+	color:#fff;
+    margin: 0px 30px 5px;
+}
+h3 {
+	font-size: 18px;
+    font-weight:normal;
+	color:#375E93;
+    margin: 15px 0px;
+}
+.con_pubdate{
+	color:#666666;
+	font-weight:bold;
+}
+.con_description {
+	margin-top:     2px;
+	margin-bottom:  15px;
+}
+.con_description p{
+    margin-bottom:  4px;
+}
+.con_desc{
+	margin-top:0px;
+}
+.con_text{
+    margin:15px 0px;
+}
+.con_subcat{
+    font-size:18px;
+    padding-left:23px;
+    background: url(../images/icons/folder.png) no-repeat left center;
+    height:18px;
+    line-height:18px;
+}
+.con_title{
+	font-weight:bold;
+	font-size:16px;
+    margin-bottom:10px;
+}
+.con_icons{
+	margin:4px;
+	margin-top:9px;
+	margin-left:10px;
+}
+.con_icon{
+	margin-top:4px;
+}
+.con_details{	
+    margin-bottom:10px;
+	color:#FBDB4F;
+}
+
+.con_image{
+    float:left;
+    margin-right:16px;
+    padding:2px;
+    border:solid 1px #444;
+}
+
+/* ========================================================================== */
+/* ============================== КОНТЕНТ =================================== */
+/* ========================================================================== */
+
+#con_rating_block{
+	margin-top:10px;
+    padding:10px;
+	margin-bottom:10px;
+    background:#FBDB4F;
+    border-radius:8px;
+    -moz-border-radius:8px;
+}
+#con_rating_block strong{
+color:#000;
+}
+#con_rating_block span{
+color:#000;
+}
+#karmapoints{
+color:#000;
+}
+.con_photos_header{
+	padding:8px;
+	font-weight:bold;
+	text-align:center;
+}
+
+table.con_photos_block{
+	float:right;
+}
+
+table.con_photos td{
+	padding:0px;
+}
+
+div.con_forum_link{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+div.con_forum_link a{
+    height:16px;
+    line-height:16px;
+    padding-left:18px;
+    background:url(/images/icons/comments.gif) no-repeat left center;
+}
+
+/* ========================================================================== */
+/* ============================== Закругления =============================== */
+/* ========================================================================== */
+

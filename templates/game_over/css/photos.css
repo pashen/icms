@@ -1,0 +1,202 @@
+/*------------------------- COMPONENT "PHOTOS" -------------------------------*/
+.photo_layout{
+    margin-bottom: 15px;
+}
+.photo_thumb{
+	display:block;
+    border:solid 1px #FBDB4F;
+    padding:15px;
+    border-radius:8px;
+    -moz-border-radius:8px;
+    margin-right:5px;
+    margin-bottom:5px;
+}
+.photo_thumb a{
+    font-size:16px;
+}
+.photo_bar{
+	background-color: #EBEBEB;
+	margin:6px 0px 6px 0px;
+}
+.photo_desc{
+	margin-bottom:10px;
+}
+.photo_box{
+	border:solid 1px silver;
+}
+.photo_date_td{
+	background-color:#EBEBEB;
+}
+.photo_sortform{
+	padding:5px 8px;
+	background-color:#FBDB4F;
+    border-radius:8px;
+    -moz-border-radius:8px;
+    color:#000;
+}
+.photo_subcat{
+    font-size:16px;
+}
+.photo_gallery{
+    margin-bottom:15px;
+    clear:both;
+}
+.photo_userbar{
+	padding:10px;
+	background-color:#EBEBEB;
+	margin-bottom:2px;
+}
+.photo_toolbar{	
+    float:right;
+    -moz-border-radius:8px 8px 8px 8px;
+    background-color:#FBDB4F;
+    padding:5px 8px;
+}
+.photo_toolbar table{
+    height:30px;
+}
+
+.photo_toolbar a{
+	text-decoration:underline;
+    font-size:14px;
+    color:#375E93;
+}
+.photo_add_link{
+    padding-left:20px;
+    background:url(../images/icons/addphoto.png) no-repeat left center;
+    font-size:14px;
+    float:right;
+    clear:both;
+}
+.photo_bbinput{
+	width:200px;
+	padding:2px;
+    border:solid 1px #4DA4CF;
+}
+.photo_row{
+	height:auto !important;
+	overflow:hidden;
+	padding:0.8em 0;
+	width:99%;
+}
+.photo_album_tumb{
+    height:100%;
+    float:left;
+    position:relative;
+    width:200px;
+    margin-right:15px;
+    margin-bottom:15px;
+    border:solid 1px #FBDB4F;
+    padding:15px;
+    border-radius:8px;
+    -moz-border-radius:8px;
+}
+
+.photo_container{
+    text-align:center !important;
+}
+.photo_album_img{
+    background-color:#FFFFFF;
+    background-image:none;
+    border:1px solid #C0C0C0;
+    margin:0 0.3em 0.3em 0;
+    padding:3px;
+    vertical-align:bottom;
+}
+.photo_txt{
+    text-align:center !important;
+}
+.photo_txt .photo_album_title{
+    font-size:16px;
+    height: 25px;
+    display:block;
+	color:#FF5A00;
+}
+.photo_txt .photo_album_title a{
+	color:#FF5A00;
+}
+.photo_container_today{
+	color:#09F;
+	font-weight:bold;
+	position:absolute;
+	top: 40px;
+	left: 10px;
+	z-index: 1;
+	margin:0;
+	padding:0;
+}
+.photo_txt ul {
+    margin:0 !important;
+    padding:0 !important;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+}
+.photo_txt li {
+    background-image:none;
+    line-height:115% !important;
+    list-style-image:none;
+    list-style-type:none;
+    margin:0 !important;
+    padding:0 !important;
+}
+.photo_details .photo_date_details{
+    margin-top:10px;
+}
+.photo_larr{
+    background:url(../images/larr.png) no-repeat right 20px;
+}
+.photo_details{
+    background:#FBDB4F;
+    padding:20px;
+    border-radius:8px;
+    -moz-border-radius:8px;
+    font-size:14px;
+	color:#000;
+}
+.photo_details .operations{ margin-top:20px; }
+
+.photo_details .karma_buttons{
+    padding:5px;
+    background:#FFF;
+    border-radius:8px;
+    -moz-border-radius:8px;
+}
+
+.photo_sub_details{
+    padding:10px 20px;
+    font-size:14px;
+}
+
+.photo_sub_details .taglinebar{
+    margin:0px;
+    margin-top:10px;
+}
+
+/*------------------------ MODULE "LATEST PHOTO" -----------------------------*/
+.mod_lp_titlelink{
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:5px;
+	color:#047700;
+}
+.mod_lp_titlelink a{
+	color:#047700;
+}
+.mod_lp_albumlink{
+	margin-top:4px;
+}
+.mod_lp_albumlink a{
+	color:#FACD00;
+	text-decoration:underline;
+}
+.mod_lp_details{
+    background:#FACD00;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    margin-top:5px;
+	color:#000;
+}
+.mod_lp_photo{
+	padding-right:10px;
+}

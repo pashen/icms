@@ -1,0 +1,16 @@
+body{background: #fff;}
+#wrap_100{display: none;}
+#ie6warning{width: 1000px !important; margin: 0px auto !important; display: block !important;	color: #222;}
+div#sitename{font-size: 50px; font-weight: bold; color: #666;}
+div#title,div#preim{font-size: 30px; font-weight: bold; color: #222;}
+p.warning{font-size: 15px; color: #666;}
+div#browsers a{ display: block; margin-top:20px; width: 200px; height: 150px; float: left; text-align: center; text-decoration: none; font-size: 15px; text-transform: uppercase; font-weight: bold;}
+a#msie{font-weight: bold;}
+a#firefox{background: url('../images/browsers.jpg') no-repeat 0px 0px;}
+a#opera{background: url('../images/browsers.jpg') no-repeat -200px 0px;}
+a#chrome{background: url('../images/browsers.jpg') no-repeat -400px 0px;}
+a#safari{background: url('../images/browsers.jpg') no-repeat -600px 0px;}
+#wrap,#header_box,#top_banner_box,#top_menu,#top_tab,#main_menu_box,#pathway_box,#top_modules,#content_box,#footer_box{	display: none;}
+ul#warning{font-size: 15px; list-style: circle; color: #666;}
+ul#warning li{font-size: 15px; list-style: circle; line-height: 35px;}
+

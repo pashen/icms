@@ -1,0 +1,229 @@
+ul.vid_cat_list{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+ul.vid_cat_list li.vid_cat_item{
+    float: left;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    margin: 0 0 2px;
+    width: 33%;
+}
+
+div.v-cat-cat{
+    margin: 10px auto;
+    width: 180px;
+}
+div.v-cat-i{
+    background: url("../images/g-preview-bg2.gif") repeat-y scroll 0 0 transparent;
+    border-color: #C1CDDB;
+    border-style: solid none;
+    border-width: 1px 0;
+    /*float: left;*/
+    margin: 10px auto;
+    padding: 5px 10px 7px;
+    width: 160px;
+}
+span.v-time{
+    float: left;
+    margin-top: 3px;
+}
+span.v-time img{
+    margin-right: 3px;
+}
+div.v-info{
+    background: url("../images/2.png") repeat scroll 0 0 transparent;
+    bottom: 0;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: bold;
+    height: 14px;
+    left: 0;
+    padding: 0 5px 2px;
+    position: absolute;
+    width: 150px;
+    z-index: 10;
+}
+a.v-link{
+    display: block;
+    height: 120px;
+    position: relative;
+    width: 160px;
+}
+a.v-link b {
+    display: block;
+    height: 120px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 160px;
+    z-index: 5;
+}
+a.v-link:hover b{
+    background-image: url("../images/v-play.png");
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 120px;
+    z-index: 100;
+}
+div.v-preview{
+    height: 120px;
+    margin-bottom: 4px;
+    padding: 0;
+    position: relative;
+    width: 160px;
+}
+div.border_video{
+    border: 1px solid #cccccc;
+    margin: 10px 5px;
+    padding: 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff;
+    behavior: url(/templates/ic_socium30/css/PIE.htc);
+}
+div.border_video_vid{
+    border: 1px solid #cccccc;
+    margin: 10px 5px;
+    padding: 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff;
+    behavior: url(/templates/ic_socium30/css/PIE.htc);
+    text-align: center;
+}
+div.video_buttons{
+    padding: 0px;
+}
+a.add_video{
+    background-image: url("../images/button3.gif");
+    display: block;
+    float: left;
+    font-size: 15px;
+    height: 40px;
+    color: #fff;
+    padding-left: 52px;
+    padding-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 160px;
+}
+a.add_video:hover{
+    color: #f5f5f5;
+}
+a.my_video:hover{
+    color: #f5f5f5;
+}
+a.my_video{
+    background-image: url("../images/button4.gif");
+    display: block;
+    float: left;
+    font-size: 15px;
+    height: 40px;
+    color: #fff;
+    padding-left: 52px;
+    padding-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 160px;
+}
+div.video_info{
+    border-top: 1px solid #ccc;
+    margin: 5px 0 3px;
+}
+div.navigacy{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: #f5f5f5;
+    behavior: url(/templates/ic_socium30/css/PIE.htc);
+}
+a.catlink{
+    color: #868585;
+    font-weight: bold;
+}
+a.catlink:hover{
+    color: #ccc;
+}
+ul.butt_m{
+    padding: 0px;
+    margin-left: 5px;
+}
+ul.butt_m li{
+    display: block;
+    float: left;
+    margin: 0;
+}
+ul.butt_m li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 23px;
+}
+.m1{
+    background-image: url("../images/butt/1.jpg");
+    height: 24px;
+    width: 2px;
+}
+.m2{
+    background-image: url("../images/butt/2.jpg");
+    height: 24px;
+    background-repeat: repeat-x;
+    text-align: center;
+    padding: 0 10px;
+}
+.m3{
+    background-image: url("../images/butt/3.jpg");
+    height: 24px;
+    width: 3px;
+}
+.m4{
+    background-image: url("../images/butt/4.jpg");
+    height: 24px;
+    background-repeat: repeat-x;
+    text-align: center;
+    padding: 0 10px;
+}
+.m5{
+    background-image: url("../images/butt/5.jpg");
+    height: 24px;
+    width: 2px;
+}
+
+
+.m11{
+    background-image: url("../images/butt/55.jpg");
+    height: 24px;
+    width: 2px;
+}
+.m22{
+    background-image: url("../images/butt/4.jpg");
+    height: 24px;
+    background-repeat: repeat-x;
+    text-align: center;
+    padding: 0 10px;
+}
+.m33{
+    background-image: url("../images/butt/33.jpg");
+    height: 24px;
+    width: 3px;
+}
+.m44{
+    background-image: url("../images/butt/2.jpg");
+    height: 24px;
+    background-repeat: repeat-x;
+    text-align: center;
+    padding: 0 10px;
+}
+.m55{
+    background-image: url("../images/butt/11.jpg");
+    height: 24px;
+    width: 2px;
+}
